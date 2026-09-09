@@ -1,4 +1,4 @@
-out/
+out/*
 .DS_Store
-.mypy_cache/
-.vscode/
+.mypy_cache/*
+.vscode/*
