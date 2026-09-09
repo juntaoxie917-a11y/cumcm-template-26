@@ -1,0 +1,44 @@
+% ===============常用数字集合与字母===============
+
+% 黑板粗体（数集）
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\NN}{\mathbb{N}}
+
+% 花体字母（集合、空间等）
+\newcommand{\cA}{\mathcal{A}}
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cF}{\mathcal{F}}
+\newcommand{\cL}{\mathcal{L}}
+
+% ===============自动伸缩的定界符===============
+
+\newcommand{\pr}[1]{\left(#1\right)}          % 圆括号
+\newcommand{\br}[1]{\left[#1\right]}          % 方括号
+\renewcommand{\brace}[1]{\left\{#1\right\}}     % 大括号
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}  % 绝对值
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert} % 范数
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor}  % 向下取整
+\newcommand{\ceil}[1]{\left\lceil #1 \right\rceil}     % 向上取整
+
+% ===============概率与统计===============
+
+\newcommand{\E}[1]{\mathbb{E}\!\left[#1\right]}                 % 期望
+\newcommand{\Var}[1]{\operatorname{Var}\!\left(#1\right)}       % 方差
+\newcommand{\Cov}[2]{\operatorname{Cov}\!\left(#1,#2\right)}    % 协方差
+\newcommand{\given}{\;\middle|\;}                                % 条件竖线
+
+% ===============数学运算符===============
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator{\tr}{tr}              % 迹
+\DeclareMathOperator{\rank}{rank}          % 秩
+\DeclareMathOperator{\diag}{diag}          % 对角
+
+% ===============加粗向量与矩阵===============
+
+\newcommand{\vb}[1]{\mathbf{#1}}           % 通用加粗向量
+\newcommand{\mtx}[1]{\mathbf{#1}}          % 矩阵（可与向量区分风格）
